@@ -2,7 +2,7 @@
 
 # Configura estas variables según tus necesidades
 BASE_DIR="$HOME/dev/🍎/pocs"
-BACKUP_DIR="$HOME/dev/🍎/.pocs-backup"
+BACKUP_DIR="$HOME/dev/🍎/pocs/.backup"
 REMOTE_REPO_URL="git@github.com:crisrojas/SDD-Pocs.git"
 REPO_NAME="SDD-Pocs"
 
@@ -20,8 +20,9 @@ remove_hidden_files() {
 if [ -d "${BACKUP_DIR}" ]; then
     echo "El directorio de respaldo existe. Sincronizando con rsync..."
     
-    # Sincronizar el directorio de respaldo existente con la carpeta de trabajo
-    rsync -a --exclude='.git' "${BASE_DIR}/" "${BACKUP_DIR}/"
+    # Sincronizar el directorio source con la carpeta de destino
+    # Y excluye la propia carpeta de destino de la sincronización (por estar dentro de la de fuentes)
+    rsync -a --exclude='.git' --exclude='.backup' "${BASE_DIR}/" "${BACKUP_DIR}/"
 
     # Verificar si la sincronización fue exitosa
     if [ $? -ne 0 ]; then
@@ -64,7 +65,7 @@ else
     fi
 
     # Copiar archivos desde BASE_DIR a BACKUP_DIR
-    rsync -a --exclude='.git' "${BASE_DIR}/" "${BACKUP_DIR}/"
+    rsync -a --exclude='.git' --exclude='.backup' "${BASE_DIR}/" "${BACKUP_DIR}/"
 
     # Verificar si la sincronización fue exitosa
     if [ $? -ne 0 ]; then
