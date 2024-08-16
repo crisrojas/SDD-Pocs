@@ -10,13 +10,9 @@ REPO_NAME="SDD-Pocs"
 
 # Función para eliminar archivos ocultos en la raíz
 # @todo: no funciona
-#remove_hidden_files() {
-#    echo "Eliminando archivos ocultos en la raíz del directorio ${1}, excepto .git..."
-#    # Navegar al directorio de respaldo antes de eliminar archivos ocultos
-#    cd "${1}" || { echo "No se pudo cambiar al directorio ${1}. Verifica que el directorio exista y los #permisos."; exit 1; }
-#    # Eliminar solo archivos ocultos en la raíz, excluyendo la carpeta .git
-#    find . -maxdepth 1 -name ".*" -type f ! -name ".git" -exec rm -f {} +
-#}
+remove_hidden_files() {
+    find "${BACKUP_DIR}" -maxdepth 1 -name ".*" -type f -exec rm -f {} +
+}
 
 
 # Verificar si el directorio de respaldo existe
@@ -33,7 +29,7 @@ if [ -d "${BACKUP_DIR}" ]; then
         exit 1
     fi
 
-    #remove_hidden_files "${BACKUP_DIR}"
+    remove_hidden_files
 
     # Inicializar un repositorio Git si no existe
     cd "${BACKUP_DIR}" || { echo "No se pudo cambiar al directorio ${BACKUP_DIR}. Verifica que el directorio exista."; exit 1; }
@@ -75,7 +71,7 @@ else
         exit 1
     fi
 
-    #remove_hidden_files "${BACKUP_DIR}"
+    remove_hidden_files
 
     # Inicializar un nuevo repositorio Git en BACKUP_DIR
     cd "${BACKUP_DIR}" || { echo "No se pudo cambiar al directorio ${BACKUP_DIR}. Verifica que el directorio exista."; exit 1; }
