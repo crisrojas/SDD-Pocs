@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" ~> 4.5
+github "PureLayout/PureLayout"
+github "bustoutsolutions/siesta" ~> 1.0
+github "SwiftyJSON/SwiftyJSON"
+github "Quick/Nimble"
+github "stephencelis/SQLite.swift" ~> 0.11.5

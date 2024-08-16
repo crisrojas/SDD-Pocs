@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405B7FED2BBB7306005D7B6E /* login.php in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FE02BBB7306005D7B6E /* login.php */; };
+		405B7FEE2BBB7306005D7B6E /* index.php in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FE12BBB7306005D7B6E /* index.php */; };
+		405B7FEF2BBB7306005D7B6E /* recipes.php in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FE22BBB7306005D7B6E /* recipes.php */; };
+		405B7FF02BBB7306005D7B6E /* run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FE32BBB7306005D7B6E /* run.sh */; };
+		405B7FF12BBB7306005D7B6E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FE42BBB7306005D7B6E /* README.md */; };
+		405B7FF22BBB7306005D7B6E /* users.php in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FE52BBB7306005D7B6E /* users.php */; };
+		405B7FF42BBB7306005D7B6E /* users.csv in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FE82BBB7306005D7B6E /* users.csv */; };
+		405B7FF62BBB7306005D7B6E /* recipes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FEA2BBB7306005D7B6E /* recipes.csv */; };
+		405B7FF72BBB7306005D7B6E /* api.paw in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FEB2BBB7306005D7B6E /* api.paw */; };
+		405B7FF82BBB7306005D7B6E /* jwt.php in Resources */ = {isa = PBXBuildFile; fileRef = 405B7FEC2BBB7306005D7B6E /* jwt.php */; };
+		405F2F8C2BB5E7C00023D238 /* LoginJWTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405F2F8B2BB5E7C00023D238 /* LoginJWTApp.swift */; };
+		405F2F8E2BB5E7C00023D238 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405F2F8D2BB5E7C00023D238 /* ContentView.swift */; };
+		405F2F902BB5E7C10023D238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405F2F8F2BB5E7C10023D238 /* Assets.xcassets */; };
+		405F2F932BB5E7C10023D238 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405F2F922BB5E7C10023D238 /* Preview Assets.xcassets */; };
+		405F2F9D2BB5E7C10023D238 /* LoginJWTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405F2F9C2BB5E7C10023D238 /* LoginJWTTests.swift */; };
+		405F2FA72BB5E7C10023D238 /* LoginJWTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405F2FA62BB5E7C10023D238 /* LoginJWTUITests.swift */; };
+		405F2FA92BB5E7C10023D238 /* LoginJWTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405F2FA82BB5E7C10023D238 /* LoginJWTUITestsLaunchTests.swift */; };
+		40D39F8D2BC486A800D47272 /* Bonfire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D39F8C2BC486A800D47272 /* Bonfire.swift */; };
+		40D39F8F2BC486BA00D47272 /* MagicJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D39F8E2BC486BA00D47272 /* MagicJSON.swift */; };
+		40D39F922BC4872000D47272 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D39F912BC4872000D47272 /* Entities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405F2F992BB5E7C10023D238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 405F2F802BB5E7C00023D238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405F2F872BB5E7C00023D238;
+			remoteInfo = LoginJWT;
+		};
+		405F2FA32BB5E7C10023D238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 405F2F802BB5E7C00023D238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405F2F872BB5E7C00023D238;
+			remoteInfo = LoginJWT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		405B7FE02BBB7306005D7B6E /* login.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = login.php; sourceTree = "<group>"; };
+		405B7FE12BBB7306005D7B6E /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		405B7FE22BBB7306005D7B6E /* recipes.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = recipes.php; sourceTree = "<group>"; };
+		405B7FE32BBB7306005D7B6E /* run.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		405B7FE42BBB7306005D7B6E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		405B7FE52BBB7306005D7B6E /* users.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = users.php; sourceTree = "<group>"; };
+		405B7FE82BBB7306005D7B6E /* users.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = users.csv; sourceTree = "<group>"; };
+		405B7FEA2BBB7306005D7B6E /* recipes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recipes.csv; sourceTree = "<group>"; };
+		405B7FEB2BBB7306005D7B6E /* api.paw */ = {isa = PBXFileReference; lastKnownFileType = file; path = api.paw; sourceTree = "<group>"; };
+		405B7FEC2BBB7306005D7B6E /* jwt.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = jwt.php; sourceTree = "<group>"; };
+		405F2F882BB5E7C00023D238 /* LoginJWT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginJWT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		405F2F8B2BB5E7C00023D238 /* LoginJWTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginJWTApp.swift; sourceTree = "<group>"; };
+		405F2F8D2BB5E7C00023D238 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		405F2F8F2BB5E7C10023D238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		405F2F922BB5E7C10023D238 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		405F2F982BB5E7C10023D238 /* LoginJWTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginJWTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		405F2F9C2BB5E7C10023D238 /* LoginJWTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginJWTTests.swift; sourceTree = "<group>"; };
+		405F2FA22BB5E7C10023D238 /* LoginJWTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginJWTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		405F2FA62BB5E7C10023D238 /* LoginJWTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginJWTUITests.swift; sourceTree = "<group>"; };
+		405F2FA82BB5E7C10023D238 /* LoginJWTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginJWTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		405F2FB52BB5E8260023D238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40D39F8C2BC486A800D47272 /* Bonfire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonfire.swift; sourceTree = "<group>"; };
+		40D39F8E2BC486BA00D47272 /* MagicJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicJSON.swift; sourceTree = "<group>"; };
+		40D39F912BC4872000D47272 /* Entities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405F2F852BB5E7C00023D238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405F2F952BB5E7C10023D238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405F2F9F2BB5E7C10023D238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		405B7FDF2BBB7306005D7B6E /* server */ = {
+			isa = PBXGroup;
+			children = (
+				405B7FE02BBB7306005D7B6E /* login.php */,
+				405B7FE12BBB7306005D7B6E /* index.php */,
+				405B7FE22BBB7306005D7B6E /* recipes.php */,
+				405B7FE32BBB7306005D7B6E /* run.sh */,
+				405B7FE42BBB7306005D7B6E /* README.md */,
+				405B7FE52BBB7306005D7B6E /* users.php */,
+				405B7FE62BBB7306005D7B6E /* db */,
+				405B7FEB2BBB7306005D7B6E /* api.paw */,
+				405B7FEC2BBB7306005D7B6E /* jwt.php */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		405B7FE62BBB7306005D7B6E /* db */ = {
+			isa = PBXGroup;
+			children = (
+				405B7FE82BBB7306005D7B6E /* users.csv */,
+				405B7FEA2BBB7306005D7B6E /* recipes.csv */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		405F2F7F2BB5E7C00023D238 = {
+			isa = PBXGroup;
+			children = (
+				405F2F8A2BB5E7C00023D238 /* LoginJWT */,
+				405F2F9B2BB5E7C10023D238 /* LoginJWTTests */,
+				405F2FA52BB5E7C10023D238 /* LoginJWTUITests */,
+				405F2F892BB5E7C00023D238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		405F2F892BB5E7C00023D238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405F2F882BB5E7C00023D238 /* LoginJWT.app */,
+				405F2F982BB5E7C10023D238 /* LoginJWTTests.xctest */,
+				405F2FA22BB5E7C10023D238 /* LoginJWTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405F2F8A2BB5E7C00023D238 /* LoginJWT */ = {
+			isa = PBXGroup;
+			children = (
+				40D39F902BC486F800D47272 /* Networking */,
+				405B7FDF2BBB7306005D7B6E /* server */,
+				405F2FB52BB5E8260023D238 /* Info.plist */,
+				405F2F8B2BB5E7C00023D238 /* LoginJWTApp.swift */,
+				405F2F8D2BB5E7C00023D238 /* ContentView.swift */,
+				405F2F8F2BB5E7C10023D238 /* Assets.xcassets */,
+				405F2F912BB5E7C10023D238 /* Preview Content */,
+				40D39F8E2BC486BA00D47272 /* MagicJSON.swift */,
+			);
+			path = LoginJWT;
+			sourceTree = "<group>";
+		};
+		405F2F912BB5E7C10023D238 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				405F2F922BB5E7C10023D238 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		405F2F9B2BB5E7C10023D238 /* LoginJWTTests */ = {
+			isa = PBXGroup;
+			children = (
+				405F2F9C2BB5E7C10023D238 /* LoginJWTTests.swift */,
+			);
+			path = LoginJWTTests;
+			sourceTree = "<group>";
+		};
+		405F2FA52BB5E7C10023D238 /* LoginJWTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				405F2FA62BB5E7C10023D238 /* LoginJWTUITests.swift */,
+				405F2FA82BB5E7C10023D238 /* LoginJWTUITestsLaunchTests.swift */,
+			);
+			path = LoginJWTUITests;
+			sourceTree = "<group>";
+		};
+		40D39F902BC486F800D47272 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				40D39F8C2BC486A800D47272 /* Bonfire.swift */,
+				40D39F912BC4872000D47272 /* Entities.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405F2F872BB5E7C00023D238 /* LoginJWT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405F2FAC2BB5E7C10023D238 /* Build configuration list for PBXNativeTarget "LoginJWT" */;
+			buildPhases = (
+				405F2F842BB5E7C00023D238 /* Sources */,
+				405F2F852BB5E7C00023D238 /* Frameworks */,
+				405F2F862BB5E7C00023D238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginJWT;
+			productName = LoginJWT;
+			productReference = 405F2F882BB5E7C00023D238 /* LoginJWT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		405F2F972BB5E7C10023D238 /* LoginJWTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405F2FAF2BB5E7C10023D238 /* Build configuration list for PBXNativeTarget "LoginJWTTests" */;
+			buildPhases = (
+				405F2F942BB5E7C10023D238 /* Sources */,
+				405F2F952BB5E7C10023D238 /* Frameworks */,
+				405F2F962BB5E7C10023D238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405F2F9A2BB5E7C10023D238 /* PBXTargetDependency */,
+			);
+			name = LoginJWTTests;
+			productName = LoginJWTTests;
+			productReference = 405F2F982BB5E7C10023D238 /* LoginJWTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		405F2FA12BB5E7C10023D238 /* LoginJWTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405F2FB22BB5E7C10023D238 /* Build configuration list for PBXNativeTarget "LoginJWTUITests" */;
+			buildPhases = (
+				405F2F9E2BB5E7C10023D238 /* Sources */,
+				405F2F9F2BB5E7C10023D238 /* Frameworks */,
+				405F2FA02BB5E7C10023D238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405F2FA42BB5E7C10023D238 /* PBXTargetDependency */,
+			);
+			name = LoginJWTUITests;
+			productName = LoginJWTUITests;
+			productReference = 405F2FA22BB5E7C10023D238 /* LoginJWTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		405F2F802BB5E7C00023D238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					405F2F872BB5E7C00023D238 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					405F2F972BB5E7C10023D238 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 405F2F872BB5E7C00023D238;
+					};
+					405F2FA12BB5E7C10023D238 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 405F2F872BB5E7C00023D238;
+					};
+				};
+			};
+			buildConfigurationList = 405F2F832BB5E7C00023D238 /* Build configuration list for PBXProject "LoginJWT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 405F2F7F2BB5E7C00023D238;
+			productRefGroup = 405F2F892BB5E7C00023D238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405F2F872BB5E7C00023D238 /* LoginJWT */,
+				405F2F972BB5E7C10023D238 /* LoginJWTTests */,
+				405F2FA12BB5E7C10023D238 /* LoginJWTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		405F2F862BB5E7C00023D238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405B7FF82BBB7306005D7B6E /* jwt.php in Resources */,
+				405B7FF02BBB7306005D7B6E /* run.sh in Resources */,
+				405B7FF22BBB7306005D7B6E /* users.php in Resources */,
+				405F2F932BB5E7C10023D238 /* Preview Assets.xcassets in Resources */,
+				405B7FED2BBB7306005D7B6E /* login.php in Resources */,
+				405B7FF62BBB7306005D7B6E /* recipes.csv in Resources */,
+				405B7FF12BBB7306005D7B6E /* README.md in Resources */,
+				405F2F902BB5E7C10023D238 /* Assets.xcassets in Resources */,
+				405B7FEE2BBB7306005D7B6E /* index.php in Resources */,
+				405B7FF42BBB7306005D7B6E /* users.csv in Resources */,
+				405B7FF72BBB7306005D7B6E /* api.paw in Resources */,
+				405B7FEF2BBB7306005D7B6E /* recipes.php in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405F2F962BB5E7C10023D238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405F2FA02BB5E7C10023D238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405F2F842BB5E7C00023D238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D39F922BC4872000D47272 /* Entities.swift in Sources */,
+				405F2F8E2BB5E7C00023D238 /* ContentView.swift in Sources */,
+				40D39F8F2BC486BA00D47272 /* MagicJSON.swift in Sources */,
+				40D39F8D2BC486A800D47272 /* Bonfire.swift in Sources */,
+				405F2F8C2BB5E7C00023D238 /* LoginJWTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405F2F942BB5E7C10023D238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405F2F9D2BB5E7C10023D238 /* LoginJWTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405F2F9E2BB5E7C10023D238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405F2FA92BB5E7C10023D238 /* LoginJWTUITestsLaunchTests.swift in Sources */,
+				405F2FA72BB5E7C10023D238 /* LoginJWTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		405F2F9A2BB5E7C10023D238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405F2F872BB5E7C00023D238 /* LoginJWT */;
+			targetProxy = 405F2F992BB5E7C10023D238 /* PBXContainerItemProxy */;
+		};
+		405F2FA42BB5E7C10023D238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405F2F872BB5E7C00023D238 /* LoginJWT */;
+			targetProxy = 405F2FA32BB5E7C10023D238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		405F2FAA2BB5E7C10023D238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		405F2FAB2BB5E7C10023D238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405F2FAD2BB5E7C10023D238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginJWT/Preview Content\"";
+				DEVELOPMENT_TEAM = V73WZ9Y4HH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginJWT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lat.cristian.LoginJWT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		405F2FAE2BB5E7C10023D238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginJWT/Preview Content\"";
+				DEVELOPMENT_TEAM = V73WZ9Y4HH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginJWT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lat.cristian.LoginJWT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		405F2FB02BB5E7C10023D238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V73WZ9Y4HH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lat.cristian.LoginJWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginJWT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginJWT";
+			};
+			name = Debug;
+		};
+		405F2FB12BB5E7C10023D238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V73WZ9Y4HH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lat.cristian.LoginJWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginJWT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginJWT";
+			};
+			name = Release;
+		};
+		405F2FB32BB5E7C10023D238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V73WZ9Y4HH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lat.cristian.LoginJWTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginJWT;
+			};
+			name = Debug;
+		};
+		405F2FB42BB5E7C10023D238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V73WZ9Y4HH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lat.cristian.LoginJWTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginJWT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		405F2F832BB5E7C00023D238 /* Build configuration list for PBXProject "LoginJWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405F2FAA2BB5E7C10023D238 /* Debug */,
+				405F2FAB2BB5E7C10023D238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405F2FAC2BB5E7C10023D238 /* Build configuration list for PBXNativeTarget "LoginJWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405F2FAD2BB5E7C10023D238 /* Debug */,
+				405F2FAE2BB5E7C10023D238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405F2FAF2BB5E7C10023D238 /* Build configuration list for PBXNativeTarget "LoginJWTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405F2FB02BB5E7C10023D238 /* Debug */,
+				405F2FB12BB5E7C10023D238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405F2FB22BB5E7C10023D238 /* Build configuration list for PBXNativeTarget "LoginJWTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405F2FB32BB5E7C10023D238 /* Debug */,
+				405F2FB42BB5E7C10023D238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 405F2F802BB5E7C00023D238 /* Project object */;
+}

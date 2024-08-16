@@ -1,0 +1,9 @@
+{
+  "commitish" : "v3.1.2",
+  "iOS" : [
+    {
+      "name" : "PureLayout",
+      "hash" : "ef0cdf4f098f136fbf39388002b7b91075e7b1fb5896f45ec903872d9d31f307"
+    }
+  ]
+}

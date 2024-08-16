@@ -1,0 +1,21 @@
+refs: [[🛠️ Clon de Things]]
+ChatGPT:
+
+¡Por supuesto! Vamos a explorar por qué el logaritmo tiene ese efecto de hacer las cosas más "pegajosas" o resistentes a medida que crecen.
+
+El logaritmo es una función matemática que tiene una propiedad interesante: crece de manera más lenta a medida que su entrada aumenta. Para entenderlo mejor, veamos algunos ejemplos numéricos:
+
+Supongamos que tenemos una serie de números y calculamos sus logaritmos en base 2:
+
+Log2(1) = 0
+Log2(2) = 1
+Log2(4) = 2
+Log2(8) = 3
+Log2(16) = 6
+
+Aquí puedes ver cómo, a medida que los números aumentan, los valores de los logaritmos también aumentan, pero lo hacen de manera más lenta. Por ejemplo, el salto en valores entre 1 y 2 es de 1 (de 0 a 1), pero el salto en valores entre 8 y 16 es de solo 1 (de 3 a 4).
+
+Este comportamiento es lo que hace que el logaritmo sea útil en este caso. Cuando aplicamos el logaritmo a la distancia del arrastre en tu código, estamos efectivamente desacelerando el aumento de resistencia a medida que la distancia aumenta. Esto hace que el gesto se sienta más "pegajoso" o resistente a medida que lo alejas, pero la resistencia aumenta de manera menos brusca que si no usáramos el logaritmo.
+
+Entonces, el logaritmo actúa como una especie de regulador que hace que el aumento de resistencia sea más gradual a medida que te alejas, lo que se traduce en esa sensación de "pegajosidad" o resistencia creciente en el gesto de arrastre.
+

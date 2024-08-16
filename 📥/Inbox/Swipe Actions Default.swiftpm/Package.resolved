@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftuitilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/crisrojas/SwiftUItilities",
+      "state" : {
+        "revision" : "4c17351a0513e959eb55ab21425f1364d8574113",
+        "version" : "0.1.9"
+      }
+    },
+    {
+      "identity" : "swiftwind",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/crisrojas/swiftwind",
+      "state" : {
+        "revision" : "561aba8e697f1ecd8dce89d5c8d630742a3431d0",
+        "version" : "0.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}

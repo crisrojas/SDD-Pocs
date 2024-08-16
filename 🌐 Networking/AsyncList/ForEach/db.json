@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Cloe",
+      "lastName": "Santana",
+      "type": "seller"
+    },
+    {
+      "id": 2,
+      "firstName": "John",
+      "lastName": "Doe",
+      "type": "seller"
+    },
+    {
+      "id": 3,
+      "firstName": "Raul",
+      "lastName": "Olivares",
+      "type": "customer"
+    },
+    {
+      "id": 4,
+      "firstName": "Paco",
+      "lastName": "Damasco",
+      "type": "customer"
+    }
+  ],
+  "products": [
+    {
+      "sellerId": 1,
+      "title": "Tomatos"
+    },
+    {
+      "sellerId": 2,
+      "title": "Carrots"
+    },
+    {
+      "id": "d778",
+      "title": "New product",
+      "sellerId": 1
+    }
+  ]
+}

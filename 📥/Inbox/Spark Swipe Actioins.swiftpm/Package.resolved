@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftwind",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/crisrojas/swiftwind",
+      "state" : {
+        "revision" : "561aba8e697f1ecd8dce89d5c8d630742a3431d0",
+        "version" : "0.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}

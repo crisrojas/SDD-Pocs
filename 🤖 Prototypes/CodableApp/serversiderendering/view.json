@@ -1,0 +1,1 @@
+{"navigationView":{"options":{},"children":[{"vstack":{"options":{"background":{"color":{"hex":"ff0000","options":{}}}},"children":[{"hstack":{"options":{},"children":[{"sfSymbol":{"value":"plus","options":{}}},{"spacer":{}},{"text":{"value":"Hello","options":{}}}]}},{"spacer":{}}]}}]}}

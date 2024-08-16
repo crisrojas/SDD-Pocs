@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Items.DataController.handlePendingUpdates():DataController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.targetedIsChecked != item.isChecked">
+            </PersistentString>
+            <PersistentString
+               value = "item.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
