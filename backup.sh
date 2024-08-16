@@ -14,6 +14,9 @@ remove_hidden_files() {
     find . -maxdepth 1 -name ".*" -type l -exec rm -f {} +
 }
 
+sync_folders() {
+    rsync -a --exclude='.git' --exclude='.backup' --exclude='.DS_Store' "${BASE_DIR}/" "${BACKUP_DIR}/"
+}
 
 # Verificar si el directorio de respaldo existe
 if [ -d "${BACKUP_DIR}" ]; then
@@ -21,7 +24,7 @@ if [ -d "${BACKUP_DIR}" ]; then
     
     # Sincronizar el directorio source con la carpeta de destino
     # Y excluye la propia carpeta de destino de la sincronización (por estar dentro de la de fuentes)
-    rsync -a --exclude='.git' --exclude='.backup' "${BASE_DIR}/" "${BACKUP_DIR}/"
+    sync_folders
 
     # Verificar si la sincronización fue exitosa
     if [ $? -ne 0 ]; then
@@ -63,7 +66,7 @@ else
     fi
 
     # Copiar archivos desde BASE_DIR a BACKUP_DIR
-    rsync -a --exclude='.git' --exclude='.backup' "${BASE_DIR}/" "${BACKUP_DIR}/"
+    sync_folders
 
     # Verificar si la sincronización fue exitosa
     if [ $? -ne 0 ]; then
