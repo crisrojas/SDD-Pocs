@@ -1,8 +1,10 @@
 #!/bin/bash
 
-# Configura estas variables según tus necesidades
-BASE_DIR="$HOME/dev/🍎/pocs"
-BACKUP_DIR="$HOME/dev/🍎/pocs/.backup"
+# Obtener el directorio en el que se encuentra el script
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+BASE_DIR="${SCRIPT_DIR}"
+BACKUP_DIR="${SCRIPT_DIR}/.backup"
 REMOTE_REPO_URL="git@github.com:crisrojas/SDD-Pocs.git"
 REPO_NAME="SDD-Pocs"
 
