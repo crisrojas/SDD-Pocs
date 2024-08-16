@@ -8,8 +8,6 @@ BACKUP_DIR="${SCRIPT_DIR}/.backup"
 REMOTE_REPO_URL="git@github.com:crisrojas/SDD-Pocs.git"
 REPO_NAME="SDD-Pocs"
 
-# Función para eliminar archivos ocultos en la raíz
-# @todo: no funciona
 remove_hidden_files() {
     find . -maxdepth 1 -name ".*" -type l -exec rm -f {} +
 }
