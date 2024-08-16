@@ -11,7 +11,7 @@ REPO_NAME="SDD-Pocs"
 # Función para eliminar archivos ocultos en la raíz
 # @todo: no funciona
 remove_hidden_files() {
-    find ./.backup -maxdepth 1 -name ".*" -type f -exec rm -f {} +
+    find . -maxdepth 1 -name ".*" -type f -exec rm -f {} +
 }
 
 
@@ -29,8 +29,6 @@ if [ -d "${BACKUP_DIR}" ]; then
         exit 1
     fi
 
-    remove_hidden_files
-
     # Inicializar un repositorio Git si no existe
     cd "${BACKUP_DIR}" || { echo "No se pudo cambiar al directorio ${BACKUP_DIR}. Verifica que el directorio exista."; exit 1; }
     if [ ! -d ".git" ]; then
@@ -39,7 +37,9 @@ if [ -d "${BACKUP_DIR}" ]; then
         git remote add origin "${REMOTE_REPO_URL}"
         git branch -M main
     fi
-
+    
+    remove_hidden_files
+    
     # Hacer commit de los cambios con la fecha
     DATE=$(date +%F)
     COMMIT_MESSAGE="${DATE} Backup de POCs"
