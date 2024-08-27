@@ -6,8 +6,12 @@
 import Foundation
 
 // Basado en:
-// https://github.com/loudmouth/JSONLookup/blob/master/Sources/JSONLookup/JSONLookup.swift
+// https://github.com/loudmouth/JSONLookup
 // https://github.com/saoudrizwan/DynamicJSON
+// https://github.com/Vergunof/DynamicJSON
+// https://github.com/nchlscs/swift-json
+// https://github.com/swift2931/MagicJSON
+// https://github.com/owensd/json-swift
 @dynamicMemberLookup
 public enum JSON {
     indirect case dict([String: JSON] = [:])

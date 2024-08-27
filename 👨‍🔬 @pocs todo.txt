@@ -1,0 +1,80 @@
+🏛️ Arquitectura:
+	- Modularización con xcworkspace
+📝 Logging:
+	- Log diff: `@State var some ... didSet {log()}`
+	- Implementación de un Logger
+📲 Navegación:
+	- Deeplinks
+🌐 Networking:
+	- 👤 App de autenticación
+	- 👤 Passkeys
+	- 👤 PHP/SwiftServer, capa auth por encima de json-server
+	- 👤 Auth providers (auth0, oauth, signin with apple, signing with google)
+	- 👤 Biometría (touch id, face id): https://designcode.io/quick-apps-swiftui
+	- Networking: Matteo Manferdini
+	- Implementación de URLSession con Queues & Data(fromUrl:)
+💾 Persistencia:
+	- CoreData con mapeo a proxy structs
+	- CoreData: Uso de NSFetchResultsController
+	- Cloudkit: Sincronizando apps diferentes con acceso a la misma base de datos
+	- Filesystem: Persitencia a la Apple Coding Academy
+	- Filesystem: Migración de modelos (Matteo Manferdini) 
+💰 Comercio:
+	- Implementación básica de Stripe
+	- Compras integradas
+🎨 UI:
+	- `@State` para UIKit
+	- Storyboard con UIView
+	- Storyboard en Swift Package
+	- Swift package mini design system añadiendo los componentes para que sean accesibles desde la librería
+	- UIKit, main components: ScrollView, Picker, Calendar, etc...
+	- Things selectable list: SwiftUI
+	- Things Swift Swipe: SwiftUI
+	- Schemer & Theme: UIKit
+🎨 UX:
+	- Quick open / Go the anywhere: https://talk.objc.io/collections/quick-open
+	- Fuzzy search
+	- Natural lenguage processor → Texto a comando
+	- Natural lenguagje processor → Horo → 30m #task
+	- speech to command
+	- Parsear contenido de una imágen en data interpretable por una aplicación. Ejemplo: Lista de tareas
+	- Uso de haptic feedback para hacer sentir la aplicación real y física (tangenta)
+✅ Testing:
+	- Screenshot automatation
+📱 Multiplataforma:
+	- Despite what people in this thread say: it is possible. Source: I have done it.
+	- Important part to understand: Any closed sourced framework from Apple - won’t work.
+	- But Foundation does work. So if you have a big library with business logic and no UI, you are able to write UI in Jetpack and call methods from business logic swift library.
+	- Basically, thanks to LLVM - you kind of can call a library from any language to any other language.
+	- https://www.reddit.com/r/swift/comments/1atwmmt/is_it_impossible_to_make_android_apps_with_swift/
+🌎 Localización:
+	- Localización de plurales
+	🤔 Otros:
+		- Detección de eventos (ir a background, volver, etc...)
+		- Scrapear datos de una API (Vitrines)
+		- Bluetooth → Mini poc que se conecta a un device y hace algo/muestra algo (¿airpods?)
+🖥️ CS:
+		- Small programming language (con un IDE)
+		- Base de datos
+		- Sistema operativo
+📥 Inbox :
+		- Reactividad: KVO
+		- Git:
+			- Global .gitignore
+			- Precommit hooks
+		- Performance testing
+		- Mac: Abrir barra de comandos con una combinación de teclado (aplicación que escucha constantemente en segundo plano)
+		- Button → fetch, cancelar fetch cada vez qiue se da al boton (task cancellation con gdc y async-await)
+		- Aplicación que comparte información con otro device por bluetooth (inspiración de line)
+		- Uso de la tecnología NFC
+		- Alimentar una ai (local o de pago) con mis propia data (por ejemplo, con libros de programación)
+		- Acelerómetro
+		- Giroscopio
+		- Creación de un backend de producción a partir de un esquema de base de datos (o un fichero db.json, como json-server, pero para producción)
+		- Interoperabilidad con C
+		- App de compras (ecommerce) + Apple pay: https://designcode.io/quick-apps-swiftui
+		- Realtime chat: https://designcode.io/quick-apps-swiftui
+		- App de video (fetchea los videos a través de una api): https://designcode.io/quick-apps-swiftui
+		- Reminders: https://developer.apple.com/tutorials/app-dev-training/loading-reminders
+		- Futuros y promesas
+		- Haptic: https://github.com/jasonjrr/SwiftUI.Foundations/blob/main/Sources/SwiftUIDesignSystem/Haptics/HapticFeedbackProvidable.swift
